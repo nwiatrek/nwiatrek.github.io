@@ -3030,7 +3030,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/TPS2.jpg");
+		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3759,3 +3759,20 @@
 			}
 
 	}
+	#members {
+  max-width:960px;
+  margin:10px auto;
+  padding:5px;
+  border:1px solid lightgrey;
+  text-align:center;
+}
+
+#members figure {
+  display:inline-block;
+  max-width:960px;
+  border:1px solid steelblue;
+}
+
+#members img {
+  display:block;
+}

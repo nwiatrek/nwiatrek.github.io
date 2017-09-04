@@ -19,23 +19,24 @@
 			<!-- Header -->
 				<header id="header">
 					<!-- <h1><a href="index.html">Alpha</a> by HTML5 UP</h1> -->
+					<img src="images/TPSNav.png" style="width:80px;height:45px;">
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li>
-								<a href="#" class="icon fa-angle-down">Layouts</a>
+								<a href="#" class="icon fa-angle-down">Menu</a>
 								<ul>
 									<li><a href="index.html">Home</a></li>
 									<li><a href="AboutUs.html">About Us</a></li>
-									<li><a href="elements.html">Elements</a></li>
+									<li><a href="Documentation.html">Documentation</a></li>
 									<li>
-										<a href="#">Submenu</a>
+										<!--<a href="#">Submenu</a>
 										<ul>
 											<li><a href="#">Option One</a></li>
 											<li><a href="#">Option Two</a></li>
 											<li><a href="#">Option Three</a></li>
 											<li><a href="#">Option Four</a></li>
-										</ul>
+										</ul>-->
 									</li>
 								</ul>
 							</li>
@@ -45,26 +46,27 @@
 				</header>
 
 			<!-- Main -->
-				<section id="main" class="container">
+				<section id="main" class="container 31%">
 					<header>
-						<h2>The problem that TPS will be solving is defined in the problem statement</h2>
-						<img src="images/ProblemStatement.jpg" style="width:900px;height:200px;">
+						<img src="images/ProblemStatement.jpg" style="width:800px;height:250px;">
 						<h2>Current Technologies</h2>
-						<p>Currently, there only way to detect the pulse rate and oxygen saturation of an infant throughout the birthing process uses ultrasound.
-						Thi method is unreliable, leading to the false diagnosis of cesarean births. This is a large problem when the financial burden and health risks of a cesarean birth are taken into consideration.</p>
+						<p>Currently, the only way to detect the pulse rate and oxygen saturation of an infant throughout the birthing process uses ultrasound.
+						This method is unreliable, leading to the false diagnosis of cesarean births. This is a large problem when the financial burden and health risks of a cesarean birth are taken into consideration.</p>
 					</header>
 					<div class="box">
 						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-						<h3>This is a subheading</h3>
-						<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
+						<h3>Design of The OxiScope</h3>
+						<p>The Oxiscope will contain a custom PCB, which will house the intelligence (MSP432) and the communication device(CC2650). The PCB will be connected to a fiber optic system which will be compromised of two laser diodes and a photodiode. Light will be sent from the PCB
+						, travel through the fiber optic system, reflect off of the infant's head, and return back to the photodiode. The pulse rate and oxygen saturation will be calculated from the reflected light and then sent wirelessly via bluetooth to a laptop which will be displayed on a LapVIEW GUI.</p>
 						<div class="row">
 							<div class="6u 12u(mobilep)">
-								<h3>And now a subheading</h3>
-								<p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p>
+								<h3>Hardware Specifications</h3>
+								<p>The hardware design will be done in Altium. </p>
 							</div>
 							<div class="6u 12u(mobilep)">
-								<h3>And another subheading</h3>
-								<p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p>
+								<h3>Software Specifications</h3>
+								<p>The intellignece for the OxiScope system will be the MSP432 and the CC2650. The MSP432 will be in charge of making the measurements as well as calculating all of the results and getting everything ready to be sent to the laptop. The CC2650 is solely for the communication to the 
+								laptop. This will be done via bluetooth. The laptop will have a BLED113 dongle which take the bluetooth information and display all of the information through LabVIEW via a GUI.</p>
 							</div>
 						</div>
 					</div>
@@ -72,16 +74,16 @@
 
 			<!-- Footer -->
 				<footer id="footer">
-					<ul class="icons">
+					<!-- <ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul>
+					</ul> -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Texas Prenatal Systems. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
 
