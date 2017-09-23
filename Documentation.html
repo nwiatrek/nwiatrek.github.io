@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>TPS | OxiScope</title>
+		<title>TPS | Documentation</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -26,10 +26,10 @@
 							<li>
 								<a href="#" class="icon fa-angle-down">Menu</a>
 								<ul>
-									<li><a href="index.html">Home</a></li>
+									<li><a href="index.html">Home Page</a></li>
 									<li><a href="AboutUs.html">About Us</a></li>
+									<li><a href="AboutProject.html">The OxiScope</a></li>
 									<li><a href="Videos.html">Videos</a></li>
-									<li><a href="Documentation.html">Documentation</a></li>
 									<li>
 										<!--<a href="#">Submenu</a>
 										<ul>
@@ -41,48 +41,91 @@
 									</li>
 								</ul>
 							</li>
-							<!-- <li><a href="#" class="button">Sign Up</a></li> -->
+							<!--<li><a href="#" class="button">Sign Up</a></li>-->
 						</ul>
 					</nav>
 				</header>
 
 			<!-- Main -->
-				<section id="main" class="container 31%">
+				<section id="main" class="container">
 					<header>
-						<img src="images/ProblemStatement.jpg" style="width:800px;height:250px;">
-						<h2>Current Technologies</h2>
-						<p>Currently, the only way to detect the pulse rate and oxygen saturation of an infant throughout the birthing process uses ultrasound.
-						This method is unreliable, leading to the false diagnosis of cesarean births. This is a large problem when the financial burden and health risks of a cesarean birth are taken into consideration.</p>
+						<h2>Documentation</h2>
 					</header>
+					<div>
+					</div>
 					<div class="box">
-						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-						<h3>Design of The OxiScope</h3>
-						<p>The Oxiscope will contain a custom PCB, which will house the intelligence (MSP432) and the communication device(CC2650). The PCB will be connected to a fiber optic system which will be compromised of two laser diodes and a photodiode. Light will be sent from the PCB
-						, travel through the fiber optic system, reflect off of the infant's head, and return back to the photodiode. The pulse rate and oxygen saturation will be calculated from the reflected light and then sent wirelessly via bluetooth to a laptop which will be displayed on a LapVIEW GUI.</p>
+						<!--<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>-->
+						<h3>Engineering Team</h3>
+						<p></p>
+							<div id="members">
+								<figure>
+									<img src ="images/Adam.jpg" height="176px" width="130px" alt="kathy"/>
+								<figcaption>
+									Adam McGaffin <br> Hardware Engineer
+								</figcaption>
+								</figure>
+								<figure>
+									<img src ="images/Nathan.jpg" height="176px" width="130px" alt="steve"/>
+								   <figcaption>
+									 Nathan Wiatrek <br> Software Engineer
+								   </figcaption>
+								 </figure>
+								 <figure>
+									<img src ="images/Matt_Pic.jpg" height="176px" width="130px" alt="todd"/>
+							   <figcaption>
+								 Matt Kellogg <br> Project Manager
+							   </figcaption>
+							 </figure>
+							 <figure>
+									<img src ="images/David.jpg" height="176px" width="130px" alt="don"/>
+							   <figcaption>
+								 David Delamater <br> Software Engineer
+							   </figcaption>
+							 </figure>
+							 <figure>
+									<img src ="images/Gus_Pic.jpg" height="176px" width="130px" alt="sean"/>
+							   <figcaption>
+								 Gus Ordonez <br> Test Engineer
+							   </figcaption>
+							 </figure>
+							</div>
+
+						<h3>Primary Stake Holders</h3>  
+						<p>Texas Prenatal Systems would like to thank our Sponsor and Advisor for all of their help throughout the project</p>
 						<div class="row">
 							<div class="6u 12u(mobilep)">
-								<h3>Hardware Specifications</h3>
-								<p>The hardware design will be done in Altium. </p>
+								<h3>Dr. Rainer Fink</h3>
+									<p style="text-align:center;">
+									<img src="images/fink.jpg" height="200px" width="144"/>
+								</p>
+								<p></p>
 							</div>
 							<div class="6u 12u(mobilep)">
-								<h3>Software Specifications</h3>
-								<p>The intellignece for the OxiScope system will be the MSP432 and the CC2650. The MSP432 will be in charge of making the measurements as well as calculating all of the results and getting everything ready to be sent to the laptop. The CC2650 is solely for the communication to the 
-								laptop. This will be done via bluetooth. The laptop will have a BLED113 dongle which take the bluetooth information and display all of the information through LabVIEW via a GUI.</p>
+								<h3>Dr. Byul Hur</h3>
+									<p style="text-align:center;">
+									<img src="images/hur.jpg" height="200px" width="144"/>
+								</p>
+								<p></p>
 							</div>
+						<div class="row">
+						<h2> Advanced Maternity Innovations</h2>
+						<img src="images/ami.png" style="width:200px;height:150px;">
+						<p> TPS is partnering with Advanced Maternity Innovations to create the OxiScope</p>
+						</div>
 						</div>
 					</div>
 				</section>
 
 			<!-- Footer -->
 				<footer id="footer">
-					<!-- <ul class="icons">
+					<!--<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul> -->
+					</ul>-->
 					<ul class="copyright">
 						<li>&copy; Texas Prenatal Systems. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
